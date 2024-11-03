@@ -1,0 +1,237 @@
+html,
+body {
+
+  margin: 0;
+  /* Remove default margins */
+}
+
+.container {
+  display: flex;
+  /* Use flexbox for the container */
+  flex-direction: column;
+  /* Stack child elements vertically */
+
+}
+
+.header {
+
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  height: 10vh;
+  /* Fixed height for the header */
+}
+
+.header {
+
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  height: auto;
+
+}
+
+nav {
+
+
+  display: flex;
+
+  align-items: center;
+
+}
+
+
+ul {
+  display: flex;
+  list-style: none;
+  margin-left: 80px;
+}
+
+ul li {
+
+  margin-left: 20px;
+
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+
+img {
+  margin-right: 8px;
+  width: 20px;
+  height: auto;
+}
+
+button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  /* Makes the link fill the button */
+  height: 100%;
+  /* Ensures it covers the full height */
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#home {
+  /* Allow this section to grow and push the footer down */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  font-weight: bold;
+
+
+
+
+}
+
+
+
+.btn button {
+  background-color: red;
+}
+
+footer {
+
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+
+}
+
+
+img {
+  margin-right: 8px;
+  width: 20px;
+  height: auto;
+}
+
+
+
+.book {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-left: 60px;
+  padding: 10px;
+  text-align: center;
+  width: 150px;
+
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  /* Smooth transition */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Subtle shadow for depth */
+  background-color: #ffffff;
+
+
+
+
+}
+
+.book:hover {
+  transform: scale(1.3); /* Slightly enlarge on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.book_img {
+
+  width: 150px;
+  height: auto;
+
+
+
+}
+
+.book_container {
+
+  display: flex;
+  gap: 10px;
+  margin-top: 40px;
+
+
+
+}
+
+.book_container .dates {
+  color: #1d1d1d;
+
+  font-size: 10px;
+}
+
+
+.book_container p {
+
+  color: #1d1d1d;
+  font-weight: bold;
+  font-size: 20px;
+
+
+
+
+}
+
+
+
+.sec1 {
+
+  min-height: 100vh;
+  /* Ensure it takes at least full viewport height */
+  background-image: url(./bc.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+
+
+
+}
+
+.sec2 {
+
+  /* Ensure it takes at least full viewport height */
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+
+}
+
+
+#home h2 {
+  font-size: 40px;
+  margin: 100px;
+}
+
+.sec2 h2 {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.secound {
+  font-size: 30px;
+
+
+}

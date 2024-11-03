@@ -1,0 +1,35 @@
+.search_bar_div {
+    height: 50px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search_text_box {
+    width: 50%;
+    height: 24px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.search_btn {
+    margin-left: 5px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.gallery_container {
+    margin-top: 10px;
+    height: 90svh;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+}
+
+.image_main_container {
+    margin-top: 10px;
+    height: 98%;
+    width: 77svw;
+    border: 1px solid red;
+}
